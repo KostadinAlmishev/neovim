@@ -96,11 +96,11 @@ return {
             }
 
 
-            vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = 'Show hover' })
-            vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })
-            vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, { desc = 'Go to implementation' })
-            -- vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts, { desc = 'Show references' })
-            vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, {})
+            -- vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = 'Show hover' })
+            -- vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })
+            -- vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, { desc = 'Go to implementation' })
+            -- -- vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts, { desc = 'Show references' })
+            -- vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, {})
 
             local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
